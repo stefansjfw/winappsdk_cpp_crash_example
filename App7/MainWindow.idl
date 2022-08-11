@@ -1,0 +1,11 @@
+import "Item.idl";
+
+namespace App7
+{
+    [default_interface]
+    runtimeclass MainWindow : Microsoft.UI.Xaml.Window
+    {
+        MainWindow();
+        Windows.Foundation.Collections.IObservableVector<Item> ExplorerItems{ get; };
+    }
+}

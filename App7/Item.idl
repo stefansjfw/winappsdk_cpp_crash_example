@@ -1,0 +1,9 @@
+namespace App7
+{
+    runtimeclass Item : Microsoft.UI.Xaml.Data.INotifyPropertyChanged
+    {
+        Item();
+        Item(String name);
+        String Name;
+    }
+}
